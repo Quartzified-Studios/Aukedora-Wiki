@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.42576,0,0,1.34175,-163.492,-164.633)">
+        <ellipse cx="294.223" cy="313.496" rx="179.553" ry="190.795" style="fill:rgb(131,98,0);"/>
+        <clipPath id="_clip1">
+            <ellipse cx="294.223" cy="313.496" rx="179.553" ry="190.795"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(0.9375,0,0,0.9375,18.389,19.5935)">
+                <ellipse cx="294.223" cy="313.496" rx="179.553" ry="190.795" style="fill:rgb(169,137,41);"/>
+                <clipPath id="_clip2">
+                    <ellipse cx="294.223" cy="313.496" rx="179.553" ry="190.795"/>
+                </clipPath>
+                <g clip-path="url(#_clip2)">
+                    <g transform="matrix(6.29599,0,0,5.73314,-764.235,-1221.37)">
+                        <text x="151.93px" y="303.217px" style="font-family:'Bahnschrift', sans-serif;font-size:50px;fill:rgb(250,255,130);">A</text>
+                    </g>
+                    <g transform="matrix(-6.29599,-8.19312e-16,6.60737e-16,-5.73314,1352.68,1848.37)">
+                        <text x="151.93px" y="303.217px" style="font-family:'Bahnschrift', sans-serif;font-size:50px;fill:rgb(250,255,130);">A</text>
+                    </g>
+                    <g transform="matrix(3.85518e-16,6.69019,-5.39533,3.51053e-16,1738.65,-811.235)">
+                        <text x="151.93px" y="303.217px" style="font-family:'Bahnschrift', sans-serif;font-size:50px;fill:rgb(250,255,130);">A</text>
+                    </g>
+                    <g transform="matrix(3.85518e-16,-6.69019,5.39533,3.51053e-16,-1150.21,1438.23)">
+                        <text x="151.93px" y="303.217px" style="font-family:'Bahnschrift', sans-serif;font-size:50px;fill:rgb(250,255,130);">A</text>
+                    </g>
+                    <g transform="matrix(0.933333,0,0,0.933333,19.6149,20.8997)">
+                        <path d="M294.223,122.7C393.322,122.7 473.777,208.193 473.777,313.496C473.777,418.799 393.322,504.291 294.223,504.291C195.125,504.291 114.67,418.799 114.67,313.496C114.67,208.193 195.125,122.7 294.223,122.7ZM294.223,129.798C389.635,129.798 467.097,212.11 467.097,313.496C467.097,414.881 389.635,497.193 294.223,497.193C198.812,497.193 121.35,414.881 121.35,313.496C121.35,212.11 198.812,129.798 294.223,129.798Z" style="fill:rgb(131,98,0);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
