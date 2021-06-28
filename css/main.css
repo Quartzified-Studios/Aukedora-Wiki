@@ -1,0 +1,113 @@
+@import "snippets/topnav.css";
+@import "snippets/footer.css";
+@import "snippets/fonts.css";
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Quicksand-Regular";
+    padding: 10px;
+    background-image: url(../themes/images/Ruin-01%20Night-02.png);
+  }
+  
+  .header {
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-family: "Quicksand-Regular";
+    font-size: 64px;
+      color: white;
+  }
+  
+  .header p{
+        font-family: "Quicksand-Light";
+      font-size: 32px;
+              color: white;
+  }
+  
+  
+  .leftcolumn {   
+    float: left;
+    width: 100%;
+        background-color: rgba(0,0,0,0.35);
+          border-radius: 20px;
+      padding: 20px;
+      margin-top: 1%;
+      margin-right: .5%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 24.5%;
+    background-color: rgba(0,0,0,0.35);
+          border-radius: 20px;
+    padding: 20px;
+          margin-top: 1%;
+          margin-left:.5%
+  }
+  
+  
+  .sideimage {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  
+  .card {
+    background-color: rgba(0,0,0,0.3);
+          border-radius: 20px;
+      color: white;
+    padding: 20px;
+      margin: 20px;
+  }
+  
+  .card a {
+    font-family: "Quicksand-Regular";
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .btn {
+    font-family: "Quicksand-Regular";
+  background-color: rgba(1,1,1,0.5);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="../css/main-center.css" rel="stylesheet" type="text/css" />
+		<link href="../themes/logo/Aukedora/Aukedora%20Logo.png" rel="icon" sizes="32x32" />
+		<title>Aukedora the a bit different MMORPG</title>
+
+		<script src="../jquery.js"></script>
+		<script>
+			$(function() {
+				$('[id$="-include"]').each(function (e) {
+					$(this).load("../snippets\\" + $(this).attr("id").replace("-include", "") + ".html");
+				});
+			}); 
+		
+		</script>
+
+		<!--
+			Itch.IO Code
+
+		<script type="text/javascript" src="https://static.itch.io/api.js"></script>
+		<script type="text/javascript">
+			Itch.attachBuyButton(document.getElementById("buy_button"), {
+				// replace the following with the correct information about your game
+				user: "quartzified-studios",
+    			game: "aukedora"
+			});
+		</script>
+
+
+		-->
+
+
+	</head>
+	<body>
+		<div class="header">
+			<h1>Launcher Download</h1>
+
+			<p>The Launcher that is a little different and worse</p>
+		</div>
+
+        <div id="launchertopnav-include"></div>
+
+		<div class="row">
+			<div class="column">
+
+				<div class="card">
+
+					<h1>Aukedora Launcher [Windows]</h1>
+					<a href="AukedoraLauncher.zip" download="">
+						<button class="btn">Download Launcher</button>
+					</a>
+
+					<a>
+						<button class="btn" id="buy_button">Download from Itch.io</button>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+        <div id="footer-include"></div>
+	</body>
+</html>

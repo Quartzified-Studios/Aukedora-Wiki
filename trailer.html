@@ -1,0 +1,63 @@
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="css/main-center.css">
+        <link rel="icon" href="themes/logo/Aukedora/Aukedora%20Logo.png" sizes="32x32">
+        <title> Aukedora the a bit different MMORPG </title>
+        
+
+        <script src="jquery.js"></script>
+        <script>
+            $(function() {
+                $('[id$="-include"]').each(function (e) {
+                    $(this).load("snippets\\" + $(this).attr("id").replace("-include", "" ) + ".html");
+                });
+            }); 
+        
+        </script>
+
+    </head>
+
+    <body>
+        
+        <div class="header">
+        
+            <h1>About The Developers</h1>
+            <p>The Developers that are a little different and worse</p>
+        
+        </div>
+        
+        <div id="topnav-include"></div>
+        
+        <div class="row">
+        
+            <div class="column">
+            
+                <div class="card">
+
+                    <h1>No Trailer just yet ^^</h1> 
+                </div>
+                
+            </div>
+
+            <div class="column">
+            
+                <div class="card">
+
+                    <h1>Latest Aukedora Dev Log</h1> 
+                    
+                    <iframe width="95%" height="95%" src="https://www.youtube.com/embed/fR7RB2JzpvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        <div id="footer-include"></div>
+        
+    </body>
+    
+</html>
