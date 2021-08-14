@@ -1,0 +1,68 @@
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="icon" href="themes/logo/Aukedora_Logo.svg" sizes="32x32">
+        <title> Aukedora the a bit different MMORPG </title>
+
+        <script src="jquery.js"></script>
+        <script>
+            $(function() {
+                $('[id$="-include"]').each(function (e) {
+                    $(this).load("snippets\\" + $(this).attr("id").replace("-include", "" ) + ".html");
+                });
+            }); 
+        
+        </script>
+
+    </head>
+    <body>
+
+        <div class="header">
+        
+            <h1>Aukedora</h1>
+            <p>The MMORPG that is a little different and worse</p>
+        
+        </div>
+
+        <div id="topnav-include"></div>
+        
+        
+        <div class="row">
+        
+            <div class="leftcolumn">
+            
+                <div class="card">
+                
+                    <h2>Recent Patch Notes</h2>
+                    <p>General Notes <br>
+                        - This update includes various early changes!
+                    </p>
+                    <p><b>Class Changes</b></p>
+                    <p>Hunter <br>
+                        - New Abilities Added <br>
+                        - Improved Auto Shot Graphics <br>
+                        - Improved Steady Shot Graphics <br>
+                        - Improved Serpent Arrow Graphics</p>
+                    <p>Mage <br>
+                        - Improved Fireball Graphics <br>
+                        - Improved Fireblast Graphics <br></p>
+                    <p>Shaman <br>
+                        - Improved Healing Wave Graphics <br>
+                        - Improved Water Bolt Graphics</p>
+                    <p><b>NPC Updates</b></p>
+                    <p>Skill Teacher <br>
+                        - The skill teacher allows players to unlock new abilites and passives to further empower your character.</p>
+                    <p>Store / Shop <br>
+                        - You are now capable to talk to an merchant npc that will let you sell items, as well as buy items.</p>
+                </div>
+                
+            
+            </div>
+        </div>
+        <div id="footer-include"></div>
+    </body>
+</html>
+
+
