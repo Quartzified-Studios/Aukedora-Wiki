@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="../css/main-center.css" rel="stylesheet" type="text/css" />
+		<link href="../themes/logo/Aukedora_Logo.svg" rel="icon" sizes="32x32" />
+		<title>Aukedora the a bit different MMORPG</title>
+
+		<script src="../jquery.js"></script>
+		<script>
+			$(function() {
+				$('[id$="-include"]').each(function (e) {
+					$(this).load("../snippets\\" + $(this).attr("id").replace("-include", "") + ".html");
+				});
+			}); 
+		
+		</script>
+
+		<script type="text/javascript" src="https://static.itch.io/api.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Launcher Download</h1>
+
+			<p>The Launcher that is a little different and worse</p>
+		</div>
+
+        <div id="topnav-include"></div>
+
+		<div class="row">
+			<div class="column">
+
+				<div class="card">
+
+					<h1>Game Launcher (Windows)</h1>
+					<a href="https://quartzified-games.s3.eu-central-1.amazonaws.com/Public/Launcher/Launcher.zip" download="">
+						<button class="btn">Download Launcher</button>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+        <div id="footer-include"></div>
+	</body>
+</html>
